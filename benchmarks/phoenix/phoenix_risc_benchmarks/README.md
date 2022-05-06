@@ -1,6 +1,6 @@
 # RISC-V Phoenix Benchmarks
 
-The simulator we use in the paper does not provide a notion of threading or an operating system. As such, certain libraries, such as `mmap` and `pthreads` are not available. Regardless, in the paper we performed bank-level simulation on a single threaded version *acting as if* it were part of a multithreaded/multidispatched offload routine. 
+The compiler and simulator we use in the paper does not provide a notion of threading or an operating system. As such, certain libraries, such as `mmap` and `pthreads` are not available. Regardless, in the paper we performed bank-level simulation on a single threaded version *acting as if* it were part of a multithreaded/multidispatched offload routine. 
 
 The sources provided here are the modifications made to the Phoenix benchmarks to support RISC-V compilation and execution on our simulation framework. 
 
