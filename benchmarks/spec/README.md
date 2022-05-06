@@ -10,7 +10,7 @@ When a SPEC benchmark is instrumented, one can build as follows (example used is
 $ {spec_base}/spec_2k17/bin/runcpu --action build --rebuild --config stopwatch-testing-configuration 505.mcf_r
 ```
 
-The configuration used here is the one provided in [the configurations directory](https://github.com/dovedevic/blimp/blob/main/spec/configurations/stopwatch-testing-configuration.cfg).
+The configuration used here is the one provided in [the configurations directory](https://github.com/dovedevic/blimp/blob/main/benchmarks/spec/configurations/stopwatch-testing-configuration.cfg).
 
 To run a benchmark, use:
 
