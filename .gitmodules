@@ -1,3 +1,6 @@
 [submodule "phoenix/phoenix"]
 	path = benchmarks/phoenix/phoenix
 	url = https://github.com/kozyraki/phoenix
+[submodule "simulation/imperas-riscv-tests"]
+	path = simulation/imperas-riscv-tests
+	url = https://github.com/riscv-ovpsim/imperas-riscv-tests
