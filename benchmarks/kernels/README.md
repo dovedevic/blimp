@@ -39,11 +39,11 @@ A dummy hello world application to test your compiler and simulator workflow.
 
 ## vmemset32.asm
 
-32bit Vector Memory Set, or `vmemset32`, is a benchmark that sets all 32b elements in a specified region to a specific value. This value is defined by [line 64](), and is presently `0x0` (akin to a `memclear`). The processor will take a row-buffer-sized vector of elements from the bank, set them each to the value, and then store this new row back into the bank.
+32bit Vector Memory Set, or `vmemset32`, is a benchmark that sets all 32b elements in a specified region to a specific value. This value is defined by [line 64](https://github.com/dovedevic/blimp/blob/main/benchmarks/kernels/vmemset32.asm#L64), and is presently `0x0` (akin to a `memclear`). The processor will take a row-buffer-sized vector of elements from the bank, set them each to the value, and then store this new row back into the bank.
 
 ## vscan32.asm
 
-32bit Vector Memory Scan, or `vscan32`, is a benchmark that searches for a specific 32b value within the memory region and stores the address of the hit in the last element of the array. This value is defined by [line 67](), and is presently `0x2A` (akin to all of us at some point). The processor will take a row-buffer-sized vector of elements from the bank and search all against the value. If an element in the vector matches, the first occurrence of said element's address is stored in the last element of the memory array. If all elements were searched and the value was not found, an illegal address of `0xFFFF` is stored instead.
+32bit Vector Memory Scan, or `vscan32`, is a benchmark that searches for a specific 32b value within the memory region and stores the address of the hit in the last element of the array. This value is defined by [line 67](https://github.com/dovedevic/blimp/blob/main/benchmarks/kernels/vscan32.asm#L67), and is presently `0x2A` (akin to all of us at some point). The processor will take a row-buffer-sized vector of elements from the bank and search all against the value. If an element in the vector matches, the first occurrence of said element's address is stored in the last element of the memory array. If all elements were searched and the value was not found, an illegal address of `0xFFFF` is stored instead.
 
 ## vadd32.asm
 
