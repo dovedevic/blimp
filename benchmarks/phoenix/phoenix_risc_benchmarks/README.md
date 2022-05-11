@@ -14,4 +14,4 @@ Using the [compiler linked and defined herein](https://github.com/dovedevic/blim
 
 # Running the ELF
 
-Go to the [simulator folder](https://github.com/dovedevic/blimp) of this repository to see how to profile and run ELFs in our simulation framework.
+Go to the [simulator folder](https://github.com/dovedevic/blimp/tree/main/simulation) of this repository to see how to profile and run ELFs in our simulation framework.
