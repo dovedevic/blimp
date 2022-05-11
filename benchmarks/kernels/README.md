@@ -136,4 +136,4 @@ After a benchmark is transformed from its `.asm` format to `.sx`, use the [compi
 
 # Running the ELF
 
-Go to the [simulator folder](https://github.com/dovedevic/blimp) of this repository to see how to profile and run ELFs in our simulation framework.
+Go to the [simulator folder](https://github.com/dovedevic/blimp/tree/main/simulation) of this repository to see how to profile and run ELFs in our simulation framework.
