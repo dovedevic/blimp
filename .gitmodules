@@ -7,3 +7,6 @@
 [submodule "simulation/DRAMSim2"]
 	path = simulation/DRAMSim2
 	url = https://github.com/umd-memsys/DRAMSim2
+[submodule "compilation/riscv-gnu-toolchain"]
+	path = compilation/riscv-gnu-toolchain
+	url = https://github.com/riscv-collab/riscv-gnu-toolchain
