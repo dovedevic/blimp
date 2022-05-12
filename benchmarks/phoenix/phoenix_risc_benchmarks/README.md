@@ -6,7 +6,7 @@ The sources provided here are the modifications made to the Phoenix benchmarks t
 
 # Building a RISC-V-Compatible Benchmark
 
-Using the [compiler linked and defined herein](https://github.com/dovedevic/blimp), one can compile each of the applications listed here as follows:
+Using the [compiler linked and defined herein](https://github.com/dovedevic/blimp/tree/main/compilation), one can compile each of the applications listed here as follows:
 
 ```sh
 /path/to/riscv64-unknown-elf-gcc -std=c99 -march=rv64gc -g -O3 -Ipath/to/chronometry/c_h_and_o_files /path/to/stopwatch.o -lm -o risc-{benchmark}-pthread.elf risc-{benchmark}-pthread.c

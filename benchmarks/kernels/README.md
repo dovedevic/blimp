@@ -125,7 +125,7 @@ cat {benchmark}.asm {bank_configuration}.bank > {benchmark}.sx
 
 # Building / Compiling a Kernel
 
-After a benchmark is transformed from its `.asm` format to `.sx`, use the [compiler linked and defined herein](https://github.com/dovedevic/blimp) and run the following to compile the kernel to an ELF:
+After a benchmark is transformed from its `.asm` format to `.sx`, use the [compiler linked and defined herein](https://github.com/dovedevic/blimp/tree/main/compilation) and run the following to compile the kernel to an ELF:
 
 ```sh
 /path/to/riscv64-unknown-elf-gcc -std=c99 -march=rv64gcv -nostdlib -DT_{trails} -DS_{size} -o {benchmark}.elf {benchmark}.sx
